@@ -17,33 +17,25 @@ import (
 
 func main() {
 	c := make(chan int)
-	run(c)
-}
-
-func timer(boo <-chan time.Time, c chan int) {
+	t := time.NewTicker(time.Second*1)
+	go run(c)
 	for {
 		select {
-			case <-boo:
-				c<-rand.Int()
-				boo = time.After(5000 * time.Millisecond)
+			case a :=  <-c:
+				fmt.Println("拿到数据")
+				writeInfo(strconv.Itoa(a))
 			default:
-				time.Sleep(1000 * time.Millisecond)
-				fmt.Println("赋值倒计时")
+				<-t.C
+				fmt.Println("获取数据倒计时")
 		}
 	}
 }
 
-func run (c chan int) {
-	boo := time.After(5000 * time.Millisecond)
-	go timer(boo, c)
+//模拟时不时的有数据进来
+func run( c chan int) {
 	for {
-		select {
-			case a := <-c:
-				writeInfo(strconv.Itoa(a))
-				fmt.Println(strconv.Itoa(a) + "信息已写入日志")
-			default:
-				time.Sleep(100 * time.Millisecond)
-		}
+		time.Sleep(3000 * time.Millisecond)
+		c<-rand.Int()
 	}
 }
 
