@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 /*
 加练题目：
@@ -19,12 +22,35 @@ func test(ch1 chan string, ch2 chan string) {
 }
 
 func main()  {
-	ch1 := make(chan string)
-	ch2 := make(chan string)
-	go test(ch1, ch2)
+	ch1 := make(chan int)
+	ch2 := make(chan int)
+	//ch1 := make(chan string)
+	//ch2 := make(chan string)
+	//go test(ch1, ch2)
+	//for {
+	//	re := <-ch1
+	//	fmt.Println(re)
+	//	ch2<-"receive data"
+	//}
+
+	go test1(ch1, ch2)
+
 	for {
-		re := <-ch1
-		fmt.Println(re)
-		ch2<-"receive data"
+		fmt.Println("receive message:", <-ch1)
+		<-ch2
 	}
+	//<-ch2
+}
+
+
+func test1(ch1 chan int, ch2 chan int) {
+	//for i:= 1;i <= 20 ; i++  {
+	for  {
+		//ch1 <- i
+		i := rand.Int()
+		ch1<-i
+		fmt.Println("send message:", i)
+			ch2 <- 1
+	}
+	//ch2 <- 1
 }
