@@ -88,7 +88,7 @@ func sayHello(w http.ResponseWriter, r *http.Request) {
 	delete(requestStatusMap, uniqueId)
 }
 
-func WriteInfo()  {
+func WriteInfo() {
 	info := <-logChan
 	fileName := "/tmp/weekhomework.log"
 	_, err := os.Stat(fileName)
