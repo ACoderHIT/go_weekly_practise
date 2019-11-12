@@ -6,6 +6,11 @@ import (
 	"math/rand"
 )
 
+/*
+自行实现一个常驻进程，读取channel数据，要求如下：
+将读取到的数据，写入日志
+如果channel内没数据，定期刷新等待信息到屏幕
+ */
 func randomNum(ch chan int){
 	for {
 		time.Sleep(3*1e9)

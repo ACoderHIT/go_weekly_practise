@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+/*
+两个协程交替打印数字1-100
+ */
 func PrintNum(ch chan int, ch2 chan int){
 	for i:=1; i<=100; i=i+2 {
 		fmt.Println("协程1打印了：", <-ch2)
