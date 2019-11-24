@@ -2,70 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a01ec8e0-ec69-464b-a3ba-711eef6764a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/caches/bannerlistcache/banner_list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/caches/bannerlistcache/banner_list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/caches/cache_key.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/console/command.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/console/homework.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/console/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/console/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/constants/common/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/constants/errorcode/error_code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/constants/logtype/log_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/controllers/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/controllers/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/entities/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/formatters/bannerformatter/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/formatters/bannerformatter/banner_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/middlewares/server_recovery.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/http/routes/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/jobs/basejob/base_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/jobs/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/jobs/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/models/bannermodel/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/models/bannermodel/banner_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/models/homeworkmodel/homework.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/services/bannerservice/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/app/utils/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/bootstrap/bootstrap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/build/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/build/shell/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/config/option.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/caches/bannerlistcache/banner_list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/caches/bannerlistcache/banner_list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/caches/cache_key.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/console/command.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/console/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/console/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/constants/common/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/constants/errorcode/error_code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/constants/logtype/log_type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/controllers/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/controllers/gateway.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/controllers/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/controllers/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/entities/custom_validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/entities/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/formatters/bannerformatter/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/formatters/bannerformatter/banner_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/middlewares/server_recovery.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/http/routes/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/jobs/basejob/base_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/jobs/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/jobs/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/models/bannermodel/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/models/bannermodel/banner_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/services/bannerservice/banner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/utils/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/app/utils/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/bootstrap/bootstrap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/build/bin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/build/shell/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/config/option.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/chenchaoyang/week2/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question2/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question3/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question1/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question2/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/os/exec_posix.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/os/exec.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,39 +94,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>print2</find>
-      <find>next</find>
-      <find>ready</find>
-      <find>runqput</find>
-      <find>newproc</find>
-      <find>goready</find>
-      <find>writeInfo</find>
-      <find>print1</find>
-      <find>c</find>
-      <find>sayHello</find>
-      <find>dealKill</find>
-      <find>signal</find>
-      <find>Kill</find>
-      <find>fmt.p</find>
-      <find>server</find>
-      <find>8262</find>
-      <find>listenAddr</find>
-      <find>logger</find>
-      <find>MaxHeaderBytes</find>
-      <find>monitorKill</find>
-      <find>exceeded</find>
-      <find>monitorKillmonitorKill</find>
-      <find>GenerateRangeNum</find>
-      <find>emptyCtx</find>
-      <find>ErrorLog</find>
-      <find>WriteInfo</find>
-      <find>quit</find>
-      <find>interrupt</find>
-      <find>q</find>
-    </findStrings>
-  </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,144 +101,13 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question2/main.go" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week1/practice/question1/main.go" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week3/leetcode/addTwoNumbersii.go" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week3/theory/makeAndNew.md" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question1/main.go" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week3/theory/mainAndInit.md" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question2/main.go" />
-        <option value="$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question3/main.go" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="811" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="question1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="question2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="question3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="question1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="question2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go_weekly_practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go_weekly_practise" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="zhangyanjun" type="462c0819:PsiDirectoryNode" />
-              <item name="week3" type="462c0819:PsiDirectoryNode" />
-              <item name="theory" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Tbo70KMSwRMzLSp3s5gB6WG8OK" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -260,17 +116,20 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/zhangyanjun/week3" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework" />
+      <recent name="$PROJECT_DIR$/homework/zhangyanjun/week3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework/zhangyanjun/week3/theory" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/homework/zhangyanjun/week3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,279 +190,24 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16550764" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/runtime/runtime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week2/leetcode/addTwoNumbersii.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/chan.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="281" column="21" selection-start-line="281" selection-start-column="21" selection-end-line="281" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/stubs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/math/dim.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week1/practice/question1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="71" selection-start-line="71" selection-end-line="102" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week1/practice/question2/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/header.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/request.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/url/url.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="370" column="4" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/fmt/print.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="206" column="22" lean-forward="true" selection-start-line="206" selection-start-column="22" selection-end-line="206" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/encoding/json/encode.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="156" column="5" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/time/time.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="659" column="30" lean-forward="true" selection-start-line="659" selection-start-column="30" selection-end-line="659" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question2/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/log/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/os/signal/signal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="136" column="20" lean-forward="true" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/context/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="205" column="15" selection-start-line="205" selection-start-column="5" selection-end-line="205" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/net/http/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="2994" column="19" selection-start-line="2994" selection-start-column="19" selection-end-line="2994" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/flag/flag.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="757" column="5" selection-start-line="757" selection-start-column="5" selection-end-line="757" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/leetcode/containerWithMostWater.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/theory/20140208154208906.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file:///usr/local/go/src/runtime/proc.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="301" column="1" lean-forward="true" selection-start-line="301" selection-start-column="1" selection-end-line="301" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/os/exec.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/syscall/syscall_unix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="156" column="15" lean-forward="true" selection-start-line="156" selection-start-column="15" selection-end-line="156" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/syscall/zerrors_darwin_amd64.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="1259" column="19" selection-start-line="1259" selection-start-column="19" selection-end-line="1259" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go/src/os/exec_posix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question2/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/practice/question1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week3/theory/mainAndInit.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/zhangyanjun/week2/practice/question3/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
   </component>
 </project>
