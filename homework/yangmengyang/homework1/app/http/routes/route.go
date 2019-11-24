@@ -30,7 +30,7 @@ func RegisterRoute(router *gin.Engine) {
 		v1.GET("/banner_list", controllers.GetBannerList)
 	}
 
-	router.POST("/service_a", order.Servicea)
+	router.GET("/service_a", order.Servicea)
 	router.POST("/service_b", user.Serviceb)
 
     router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
