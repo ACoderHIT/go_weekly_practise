@@ -18,7 +18,7 @@ func RegisterRoute(router *gin.Engine) {
 	router.Use(middlewares.ServerRecovery(), middleware.GenRequestId, middleware.GenContextKit, middleware.AccessLog())
 
 	router.NoRoute(controllers.Error404)
-	router.GET("/hello", controllers.HandleHello)
+	router.Any("/hello", controllers.HandleHello)
 	router.POST("/test", controllers.HandleTest)
     router.POST("/test_validator", controllers.HandleTestValidator)
 	
@@ -36,4 +36,9 @@ func RegisterRoute(router *gin.Engine) {
 	router.POST("/v2/multiCreate", controllers.MulInsert)
 	router.POST("/v2/updateNameByMobile", controllers.UpdateNameByMobile)
 	router.POST("/v2/updateMulNameById", controllers.UpdateMulNameById)
+
+
+
+
+	router.POST("/v2/getUserInfo", controllers.GetUserInfo)
 }

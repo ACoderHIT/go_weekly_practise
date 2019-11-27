@@ -3,6 +3,7 @@ package controllers
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"snow.user/app/logic/user/repository"
 	"snow.user/app/services/user"
 	"strconv"
 	"strings"
@@ -85,4 +86,14 @@ func UpdateMulNameById(c *gin.Context)  {
 	}
 
 	Success(c, fmt.Sprintf("成功修改：%d 条记录", effected))
+}
+
+func GetUserInfo(c *gin.Context)  {
+	user_id := c.PostForm("user_id")
+	if user_id == "" {
+		Error(c, 500, "id参数必传")
+		return
+	}
+
+	repository.GetUserById(c, 11111)
 }
