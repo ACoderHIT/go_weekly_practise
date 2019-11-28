@@ -61,7 +61,9 @@ github.com/go-stack/stack v1.8.0/go.mod h1:v0f6uXyyMGvRgIKkXu+yp6POWl0qKG85gN/me
 github.com/go-xorm/sqlfiddle v0.0.0-20180821085327-62ce714f951a/go.mod h1:56xuuqnHyryaerycW3BfssRdxQstACi0Epw/yC5E2xM=
 github.com/go-xorm/xorm v0.7.4 h1:g/NgC590SzqV5VKmdRDNe/K3Holw3YJUCXX28r+rFGw=
 github.com/go-xorm/xorm v0.7.4/go.mod h1:vpza5fydeRgt+stvo9qgMhSNohYqmNt0I1/D6hkCekA=
+github.com/gogap/errors v0.0.0-20160523102334-149c546090d0 h1:VqIkkZjLjkDBqAGm0tvLRNMPiFTwNJjmQxB50DwSCRA=
 github.com/gogap/errors v0.0.0-20160523102334-149c546090d0/go.mod h1:tbRYYYC7g/H7QlCeX0Z2zaThWKowF4QQCFIsGgAsqRo=
+github.com/gogap/stack v0.0.0-20150131034635-fef68dddd4f8 h1:AuxION6c7in+AsPmFjQTUKT6/o1suT8XEEpfU0pWsHA=
 github.com/gogap/stack v0.0.0-20150131034635-fef68dddd4f8/go.mod h1:6q1WEv2BiAO4FSdwLQTJbWQYAn1/qDNJHUGJNXCj9kM=
 github.com/gogo/protobuf v1.1.1/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=
 github.com/gogo/protobuf v1.2.0/go.mod h1:r8qH/GZQm5c6nD/R0oafs1akxWv10x8SbQlK7atdtwQ=

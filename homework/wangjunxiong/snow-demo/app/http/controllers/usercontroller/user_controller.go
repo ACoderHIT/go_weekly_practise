@@ -10,6 +10,30 @@ import (
 	"time"
 )
 
+func HandleInfoByGet(c *gin.Context) {
+	var infoRequset user.InfoRequest
+	var infoJsonRequest user.InfoJsonRequest
+	var userId interface{}
+	if (c.ShouldBind(&infoRequset)) == nil {
+		fmt.Println("bind")
+		userId = infoRequset.UserId
+	}
+	if (c.ShouldBindJSON(&infoJsonRequest)) == nil {
+		fmt.Println("BindJSON")
+		userId = infoJsonRequest.UserId
+	}
+
+	fmt.Println(userId)
+
+	if userId == nil {
+		controllers.Error(c, 400, "用户Id不能为空")
+		return
+	}
+	controllers.Success(c, userId)
+	return
+
+}
+
 func HandlePostUserLogin(c *gin.Context) {
 	request := new(user.UserLoginRequest)
 	request.LoginTime = time.Now()

@@ -8,6 +8,7 @@ require (
 	github.com/gin-gonic/gin v1.4.0
 	github.com/go-playground/universal-translator v0.17.0 // indirect
 	github.com/go-sql-driver/mysql v1.4.1
+	github.com/gogap/errors v0.0.0-20160523102334-149c546090d0
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/qit-team/snow-core v0.1.10
 	github.com/qit-team/work v0.3.5
