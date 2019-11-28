@@ -33,7 +33,7 @@ func HandleAGetDemoProcess(c *gin.Context)  {
 		return
 	}
 
-	url := "http://10.11.3.69:8080/week3/abservice/b/get?params=" + request.Params
+	url := "http://ip:8080/week3/abservice/b/get?params=" + request.Params
 	req, _ := httputil.NewGetRequest(url, nil)
 	response, err := client.Do(context.TODO(), req)
 	if err != nil {
