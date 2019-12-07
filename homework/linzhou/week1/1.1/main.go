@@ -4,17 +4,39 @@ import (
 	"fmt"
 )
 
-func f(from string) {
-	for i := 0; i < 6; i++ {
-		fmt.Println(from, ":", i)
+func print(count chan int, trigger chan int, done chan bool, prefix string) {
+	for {
+		odd := <-count
+		if odd <= 100 {
+			fmt.Println(prefix, " : ", odd)
+			trigger <- odd + 1
+		} else {
+			done <- true
+			return
+		}
+	}
+}
+func printEven(count chan int, trigger chan int, done chan bool) {
+	for {
+		odd := <-count
+		if odd <= 100 {
+			fmt.Println("printEven: ", odd)
+			trigger <- odd + 1
+		} else {
+			done <- true
+			return
+		}
 	}
 }
 
 func main() {
-	messages := make(chan int)
+	odd := make(chan int)
+	even := make(chan int)
+	done := make(chan bool)
 
-	go func() { messages <- 23 }()
-
-	msg := <-messages
-	fmt.Println(msg)
+	go print(odd, even, done, "打印奇数")
+	go print(even, odd, done, "打印偶数")
+	odd <- 1
+	<-done
+	fmt.Println("done")
 }
