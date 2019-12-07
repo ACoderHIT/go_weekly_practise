@@ -31,4 +31,11 @@ func RegisterRoute(router *gin.Engine) {
 	}
     
     router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
+
+	router.POST("/week3/abservice/a/get", controllers.HandleAGetDemoProcess)
+	router.POST("/week3/abservice/a/post", controllers.HandleAPostDemoProcess)
+	router.POST("/week3/abservice/a/post_json", controllers.HandleAPostJsonDemoProcess)
+	router.GET("/week3/abservice/b/get", controllers.HandleBGetRequestProcess)
+	router.POST("/week3/abservice/b/post", controllers.HandleBPostRequestProcess)
+	router.POST("/week3/abservice/b/post_json", controllers.HandleBPostJsonRequestProcess)
 }

@@ -28,7 +28,7 @@ func insertIntoTable(queneData string, num int) (affected int64, err error) {
 	}
 	fmt.Printf("%s", queneLogInsert)
 
-	file, err := os.Create("/Users/sunyue/go/src/go_weekly_practise/homework/sunyue/snow-demo/logs/sql.log")
+	file, err := os.Create("/Users/sunyue/go/src/go_weekly_practise-1/homework/sunyue/snow-demo/logs/sql.log")
 	if err != nil {
 		println(err.Error())
 		return
