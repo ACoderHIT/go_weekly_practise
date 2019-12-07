@@ -1,14 +1,14 @@
 package controllers
 
 import (
-	"github.com/go_weekly_practise-1/homework/wangjunxiong/snow-demo/app/constants/errorcode"
-	"github.com/gin-gonic/gin"
-	"net/http"
-	"encoding/json"
-	"io/ioutil"
 	"bytes"
-    "gopkg.in/go-playground/validator.v9"
-    "github.com/qit-team/snow-core/log/logger"
+	"encoding/json"
+	"github.com/gin-gonic/gin"
+	"github.com/go_weekly_practise-1/homework/wangjunxiong/snow-demo/app/constants/errorcode"
+	"github.com/qit-team/snow-core/log/logger"
+	"gopkg.in/go-playground/validator.v9"
+	"io/ioutil"
+	"net/http"
 )
 
 /**
@@ -53,7 +53,7 @@ func Error500(c *gin.Context) {
 }
 
 type HTTPError struct {
-	Code    int `json:"code" example:"400"`
+	Code    int    `json:"code" example:"400"`
 	Message string `json:"message" example:"status bad request"`
 }
 
@@ -72,7 +72,7 @@ func GenRequest(c *gin.Context, request interface{}) (err error) {
 		validate := validator.New()
 		errValidate := validate.Struct(request)
 		if errValidate != nil {
-			logger.Error(c, "param_validator_exception:" + c.Request.URL.Path, errValidate)
+			logger.Error(c, "param_validator_exception:"+c.Request.URL.Path, errValidate)
 			return errValidate
 		}
 	}
@@ -87,4 +87,17 @@ func ReadBody(c *gin.Context) (body []byte, err error) {
 	}
 	c.Request.Body = ioutil.NopCloser(bytes.NewBuffer(body))
 	return
+}
+
+/**
+ * 将请求的body转换为request数据结构
+ * @param c
+ * @param request  传入request数据结构的指针 如 new(TestRequest)
+ */
+func BuildRequest(c *gin.Context, request interface{}) (err error) {
+	body, err := ReadBody(c)
+	if err != nil {
+		return
+	}
+	return json.Unmarshal(body, request)
 }
