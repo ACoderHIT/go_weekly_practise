@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"math/rand"
+	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -20,6 +23,7 @@ type Result struct {
 
 var tasks = make(chan Task, 10)
 var results = make(chan Result, 10)
+var mutex sync.Mutex
 
 func process(num int) int {
 	sum := 0
@@ -29,6 +33,13 @@ func process(num int) int {
 		num /= 10
 	}
 	time.Sleep(2 * time.Second)
+	// 加锁
+	mutex.Lock()
+	fd_time := time.Now().Format("2006-01-02 15:04:05");
+	sumStr := strconv.Itoa(sum)
+	fd_content:=strings.Join([]string{"======",fd_time,"=====",sumStr,"\n"},"")
+	log.Println("test-caojiangjiang-" + fd_content)
+	mutex.Unlock()
 	return sum
 }
 
